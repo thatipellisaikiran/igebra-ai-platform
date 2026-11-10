@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Clock, CheckSquare, Sparkles, AlertCircle, ArrowRight } from 'lucide-react';
+import { Calendar, Clock, CheckSquare, Sparkles, ArrowRight } from 'lucide-react';
 import { RevisionPlanResponse } from '../types';
 
 interface RevisionPlanProps {

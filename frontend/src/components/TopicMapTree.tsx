@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, HelpCircle, ArrowRight, BookOpen, AlertTriangle } from 'lucide-react';
+import { Layers, ArrowRight, BookOpen } from 'lucide-react';
 import { TopicMapResponse } from '../types';
 
 interface TopicMapTreeProps {

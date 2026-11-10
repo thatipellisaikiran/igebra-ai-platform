@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageSquare, Send, BookOpen, FileText, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Send, BookOpen, FileText, CheckCircle2 } from 'lucide-react';
 import { ExplainResponse, CitationRef } from '../types';
 
 interface ExplainChatProps {
@@ -9,8 +9,8 @@ interface ExplainChatProps {
 }
 
 export const ExplainChat: React.FC<ExplainChatProps> = ({
-  initialTopicId = 'sub_01_03',
-  initialTopicTitle = 'Light Reactions: Non-Cyclic Z-Scheme & Photolysis',
+  initialTopicId = 'general',
+  initialTopicTitle = 'Uploaded Study Materials',
   onAskGroundedExplanation,
 }) => {
   const [query, setQuery] = useState('');
@@ -22,17 +22,11 @@ export const ExplainChat: React.FC<ExplainChatProps> = ({
   }>>([
     {
       sender: 'assistant',
-      text: `Hello! I am your Guarded Academic Tutor. I explain concepts **strictly using your uploaded notes and textbook chapters**. Ask me anything about "${initialTopicTitle}" or other topics in your syllabus.`,
+      text: `Hello! I am your Guarded Academic Tutor. I explain concepts **strictly using your uploaded notes and textbook chapters**. Ask me anything about "${initialTopicTitle}".`,
       grounded: true,
     }
   ]);
   const [loading, setLoading] = useState(false);
-
-  const presetQueries = [
-    "Why does cyclic photophosphorylation not release oxygen or make NADPH?",
-    "Explain what is the Z-scheme and why it is named so.",
-    "How many ATP and NADPH are used in the Calvin cycle per glucose?"
-  ];
 
   const handleSend = async (textToSend?: string) => {
     const q = textToSend || query;
@@ -80,20 +74,6 @@ export const ExplainChat: React.FC<ExplainChatProps> = ({
         </div>
       </div>
 
-      {/* Preset Queries */}
-      <div className="py-3 flex items-center space-x-2 overflow-x-auto no-scrollbar">
-        <span className="text-xs text-slate-500 shrink-0">Try asking:</span>
-        {presetQueries.map((preset, idx) => (
-          <button
-            key={idx}
-            onClick={() => handleSend(preset)}
-            className="text-[11px] bg-slate-800 hover:bg-slate-700 text-slate-300 px-2.5 py-1 rounded-md whitespace-nowrap border border-slate-700/60 transition"
-          >
-            {preset}
-          </button>
-        ))}
-      </div>
-
       {/* Message Stream */}
       <div className="flex-1 overflow-y-auto space-y-4 py-4 pr-1">
         {messages.map((m, idx) => (
@@ -110,7 +90,6 @@ export const ExplainChat: React.FC<ExplainChatProps> = ({
             >
               <div className="whitespace-pre-line">{m.text}</div>
 
-              {/* Citations Envelope */}
               {m.citations && m.citations.length > 0 && (
                 <div className="mt-3 pt-3 border-t border-slate-800/80 space-y-2">
                   <div className="text-[11px] font-semibold text-amber-400 uppercase tracking-wider flex items-center space-x-1">
@@ -165,4 +144,3 @@ export const ExplainChat: React.FC<ExplainChatProps> = ({
     </div>
   );
 };
-

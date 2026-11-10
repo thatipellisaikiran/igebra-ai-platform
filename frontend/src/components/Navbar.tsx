@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, UserCheck, Stethoscope, RefreshCw } from 'lucide-react';
+import { UserCheck, Stethoscope, RefreshCw } from 'lucide-react';
 
 interface NavbarProps {
   activeTab: string;
