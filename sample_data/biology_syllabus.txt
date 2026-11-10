@@ -1,0 +1,46 @@
+# Class 12 Biology - Unit 4: Plant Physiology & Cellular Processes
+Subject Code: BIO-12-NCERT
+
+## Unit Overview
+This unit focuses on cellular bioenergetics, nutrient uptake, photosynthesis, cellular respiration, and metabolic control in plant systems.
+
+---
+
+### Chapter 1: Photosynthesis in Higher Plants
+- Section 1.1: Early Experiments & Chloroplast Structure
+  * Priestly, Ingenhousz, Sachs, and Engelmann experiments.
+  * Structure of chloroplast: grana, thylakoid membrane, stroma lamellae, and stroma.
+- Section 1.2: Pigments Involved in Photosynthesis
+  * Chlorophyll a, chlorophyll b, xanthophylls, carotenoids.
+  * Absorption vs action spectrum.
+- Section 1.3: The Light-Dependent Reactions
+  * Photosystems I (P700) and Photosystems II (P680).
+  * Photolysis of water (oxygen-evolving complex).
+  * Non-cyclic electron transport (Z-scheme) and generation of ATP & NADPH.
+  * Cyclic photophosphorylation and role of stroma lamellae.
+- Section 1.4: Chemiosmotic Hypothesis
+  * Proton gradient generation across the thylakoid membrane.
+  * ATP synthase (CF0 - CF1 complex).
+- Section 1.5: The Dark Reactions (Biosynthetic Phase)
+  * Calvin cycle (C3 pathway): Carboxylation (RuBisCO), Reduction, Regeneration.
+  * The C4 pathway (Hatch-Slack pathway) and Kranz anatomy.
+  * Photorespiration and RuBisCO dual oxygenase/carboxylase activity.
+- Section 1.6: Factors Affecting Photosynthesis
+  * Blackman's Law of Limiting Factors.
+  * Light intensity, carbon dioxide concentration, temperature, and water stress.
+
+---
+
+### Chapter 2: Cellular Respiration in Plants
+- Section 2.1: Glycolysis (EMP Pathway)
+  * Glucose activation, phosphorylation steps, cleavage, substrate-level phosphorylation.
+  * Net yield: 2 ATP, 2 NADH per glucose.
+- Section 2.2: Fermentation & Anaerobic Breakdown
+  * Alcoholic fermentation vs lactic acid fermentation.
+- Section 2.3: Aerobic Respiration: Link Reaction & Krebs Cycle (TCA)
+  * Oxidative decarboxylation of pyruvate to Acetyl-CoA.
+  * Complete oxidation of acetyl group; generation of NADH, FADH2, GTP.
+- Section 2.4: Electron Transport System (ETS) & Oxidative Phosphorylation
+  * Complexes I, II, III, IV, and V (ATP synthase).
+  * Oxygen as the terminal electron acceptor.
+

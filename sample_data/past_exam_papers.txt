@@ -1,0 +1,37 @@
+# Past Board & Entrance Exam Papers (2022 - 2025)
+Subject: Class 12 Biology - Plant Physiology
+
+## Exam Paper: 2024 Final Examination
+Q1. [3 Marks] Describe the Z-scheme of light reaction in photosynthesis. Where does photolysis of water occur and what are its direct products?
+Mapped Topics: Photosynthesis -> Section 1.3 Light Reactions, Section 1.4 Splitting of Water
+
+Q2. [5 Marks] Differentiate between cyclic and non-cyclic photophosphorylation with respect to photosystems involved, end products formed, and occurrence location.
+Mapped Topics: Photosynthesis -> Section 1.5 Cyclic and Non-Cyclic Photophosphorylation
+
+Q3. [2 Marks] Why does the stroma lamellae membrane lack NADP reductase and what is the functional consequence of this?
+Mapped Topics: Photosynthesis -> Section 1.5 Cyclic Photophosphorylation
+
+Q4. [5 Marks] Outline the three major stages of the Calvin (C3) cycle. Calculate the exact number of ATP and NADPH molecules required to produce one net hexose glucose molecule.
+Mapped Topics: Photosynthesis -> Section 1.6 Calvin Cycle
+
+---
+
+## Exam Paper: 2023 Final Examination
+Q5. [3 Marks] Explain the role of accessory pigments in the light harvesting complex (LHC). Why is chlorophyll a termed the chief pigment?
+Mapped Topics: Photosynthesis -> Section 1.2 Pigments
+
+Q6. [5 Marks] Trace the path of electrons from water to NADP+ in the non-cyclic electron transport chain. Explain why this process is referred to as non-cyclic.
+Mapped Topics: Photosynthesis -> Section 1.3 Light Reactions, Section 1.4 Splitting of Water
+
+Q7. [3 Marks] What is substrate level phosphorylation in Glycolysis? Mention the two reactions where ATP is directly synthesized.
+Mapped Topics: Respiration -> Section 2.1 Glycolysis
+
+---
+
+## Exam Paper: 2022 Final Examination
+Q8. [5 Marks] What is the primary acceptor of CO2 in C3 plants? Describe the carboxylation reaction catalyzed by RuBisCO.
+Mapped Topics: Photosynthesis -> Section 1.6 Calvin Cycle
+
+Q9. [3 Marks] State Blackman's Law of Limiting Factors and explain its relevance when light intensity is high but CO2 concentration is low.
+Mapped Topics: Photosynthesis -> Section 1.6 Factors Affecting Photosynthesis
+

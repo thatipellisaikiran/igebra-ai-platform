@@ -1,0 +1,46 @@
+# CHAPTER 1: PHOTOSYNTHESIS IN HIGHER PLANTS
+Source: NCERT Class 12 Biology Textbook (Reference: BIOL-TEXT-CH1)
+
+### Section 1.1: Introduction and Chloroplast Anatomy
+Photosynthesis is a physico-chemical process by which green plants use light energy to drive the synthesis of organic compounds. Photosynthesis is important for two reasons: it is the primary basis of all food chains on earth and it releases oxygen into the atmosphere.
+
+The chloroplast consists of a membranous system comprising grana, the stroma lamellae, and the fluid stroma. There is a clear division of labour within the chloroplast. The membrane system (thylakoid and stroma lamellae) is responsible for trapping light energy and synthesizing ATP and NADPH. In the stroma, enzymatic reactions synthesize sugar, which in turn forms starch. The former sets of reactions, since they are directly light driven, are called light reactions. The latter are not directly light driven but depend on the products of light reactions (ATP and NADPH), and are traditionally called dark reactions or biosynthetic phase.
+
+### Section 1.2: Pigments Involved in Photosynthesis
+Chromatographic separation of leaf pigments reveals that the color of leaves is not due to a single pigment but due to four pigments:
+1. Chlorophyll a (bright or blue green in chromatogram) - the chief reaction center pigment.
+2. Chlorophyll b (yellow green).
+3. Xanthophylls (yellow).
+4. Carotenoids (yellow to yellow-orange).
+Chlorophyll a is the primary pigment associated with photosynthetic reactions, whereas chlorophyll b, xanthophylls, and carotenoids are accessory pigments. Accessory pigments absorb light at different wavelengths and transfer the energy to chlorophyll a, protecting it from photo-oxidation.
+
+### Section 1.3: The Light Reactions and the Z-Scheme
+Light reactions or the 'Photochemical' phase include light absorption, water splitting, oxygen release, and the formation of high-energy chemical intermediates, ATP and NADPH.
+
+The pigments are organized into two discrete photochemical Light Harvesting Complexes (LHC) within Photosystem I (PS I) and Photosystem II (PS II). In PS I, the reaction center chlorophyll a has an absorption peak at 700 nm, hence is called P700, while in PS II it has absorption maxima at 680 nm, and is called P680.
+
+In PS II, the reaction center chlorophyll a absorbs 680 nm wavelength of red light, exciting electrons that jump into an orbit farther from the atomic nucleus. These electrons are picked up by an electron acceptor which passes them to an electron transport system consisting of cytochromes. This movement of electrons is downhill in terms of oxidation-reduction potential. The electrons are not used up as they pass through the electron transport chain, but are passed on to the pigments of Photosystem I.
+
+Simultaneously, electrons in the reaction center of PS I are also excited when they receive red light of wavelength 700 nm and are transferred to another acceptor molecule that has a greater redox potential. These electrons then are moved downhill again, this time to a molecule of energy-rich NADP+. The addition of these electrons reduces NADP+ to NADPH + H+.
+
+This whole scheme of transfer of electrons, starting from the PS II, uphill to the acceptor, down the electron transport chain to PS I, excitation of electrons, transfer to another acceptor, and finally downhill to NADP+ reducing it to NADPH + H+ is called the Z-scheme, due to its characteristic shape on a redox scale.
+
+### Section 1.4: Splitting of Water (Photolysis)
+The electrons that were moved from Photosystem II must be continuously replaced. This replacement is provided by electrons released during the splitting of water. The splitting of water is associated with PS II; water is split into 2H+, [O] and electrons:
+2H2O -> 4H+ + O2 + 4e-
+This creates oxygen, one of the net products of photosynthesis. The oxygen-evolving complex (OEC) is physically located on the inner side of the thylakoid membrane.
+
+### Section 1.5: Cyclic and Non-Cyclic Photophosphorylation
+Living organisms have the capability of extracting energy from oxidizable substances and store this in the form of bond energy. Phosphorylation is the process through which ATP is synthesized by cells.
+
+When the two photosystems work in a series, first PS II and then the PS I, a process called non-cyclic photophosphorylation occurs. Both ATP and NADPH + H+ are synthesized by this kind of electron flow.
+
+When only PS I is functional, the electron is circulated within the photosystem and the phosphorylation occurs due to cyclic flow of electrons. A possible location where this could be happening is in the stroma lamellae. While the membrane or lamellae of the grana have both PS I and PS II, the stroma lamellae membranes lack PS II as well as NADP reductase enzyme. The excited electron does not pass on to NADP+ but is cycled back to the PS I complex through the electron transport chain. The cyclic flow hence results only in the synthesis of ATP, but not of NADPH + H+.
+
+### Section 1.6: The Calvin Cycle (Biosynthetic Phase)
+The Calvin cycle can be described under three stages:
+1. Carboxylation: Carboxylation is the fixation of CO2 into a stable organic intermediate. Carboxylation is the most crucial step where CO2 is utilized for the carboxylation of Ribulose-1,5-bisphosphate (RuBP). This reaction is catalyzed by the enzyme RuBP carboxylase-oxygenase (RuBisCO), resulting in two molecules of 3-phosphoglyceric acid (3-PGA).
+2. Reduction: These are a series of reactions that lead to the formation of glucose. The steps involve utilization of 2 molecules of ATP for phosphorylation and 2 of NADPH for reduction per CO2 molecule fixed.
+3. Regeneration: Regeneration of the CO2 acceptor molecule RuBP is crucial if the cycle is to continue uninterrupted. The regeneration steps require 1 ATP for phosphorylation to form RuBP.
+Hence for every CO2 molecule entering the Calvin cycle, 3 molecules of ATP and 2 of NADPH are required. To make one molecule of glucose, 6 turns of the cycle are required, consuming 18 ATP and 12 NADPH.
+

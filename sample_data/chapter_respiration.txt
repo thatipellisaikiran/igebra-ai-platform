@@ -1,0 +1,32 @@
+# CHAPTER 2: CELLULAR RESPIRATION IN PLANTS
+Source: NCERT Class 12 Biology Textbook (Reference: BIOL-TEXT-CH2)
+
+### Section 2.1: Glycolysis (The EMP Pathway)
+The term glycolysis has originated from the Greek words, glycos for sugar, and lysis for splitting. The scheme of glycolysis was given by Gustav Embden, Otto Meyerhof, and J. Parnas, and is often referred to as the EMP pathway. In anaerobic organisms, it is the only process in respiration. Glycolysis occurs in the cytoplasm of the cell and is present in all living organisms. In this process, glucose undergoes partial oxidation to form two molecules of pyruvic acid.
+
+In plants, this glucose is derived from sucrose, which is the end product of photosynthesis, or from storage carbohydrates. Sucrose is converted into glucose and fructose by the enzyme, invertase, and these two hexoses readily enter the glycolytic pathway. Glucose and fructose are phosphorylated to give rise to glucose-6-phosphate by the activity of the enzyme hexokinase. This phosphorylated form of glucose then isomerises to produce fructose-6-phosphate. Subsequent steps of metabolism of glucose and fructose are identical.
+
+The chain of ten reactions, under the control of different enzymes, takes place to produce pyruvate from glucose. In glycolysis, a net yield of 2 ATP and 2 NADH molecules is obtained per glucose molecule cleaved through substrate-level phosphorylation.
+
+### Section 2.2: Fermentation and Anaerobic Pathways
+Under anaerobic conditions or when oxygen is limiting, pyruvic acid undergoes fermentation. In alcoholic fermentation (e.g., in yeast), pyruvic acid is converted to carbon dioxide and ethanol, catalyzed by pyruvate decarboxylase and alcohol dehydrogenase. In lactic acid fermentation (e.g., in animal muscle cells during vigorous exercise or lactic bacteria), pyruvic acid is reduced to lactic acid by lactate dehydrogenase without carbon dioxide release.
+
+In both alcoholic and lactic acid fermentation, less than seven percent of the energy in glucose is released and not all of it is trapped as high-energy bonds of ATP. Both processes are hazardous; yeasts poison themselves to death when the concentration of alcohol reaches about 13 percent.
+
+### Section 2.3: Aerobic Respiration: Link Reaction and the Krebs Cycle
+For aerobic respiration to take place within the mitochondria, the final product of glycolysis, pyruvate, is transported from the cytoplasm into the mitochondrial matrix.
+
+Pyruvate undergoes oxidative decarboxylation by a complex set of reactions catalyzed by pyruvate dehydrogenase. The reactions require the participation of several coenzymes, including NAD+ and Coenzyme A:
+Pyruvate + CoA + NAD+ -> Acetyl CoA + CO2 + NADH + H+
+
+The Acetyl CoA then enters a cyclic pathway called the tricarboxylic acid cycle (TCA cycle) or Krebs cycle, named after Hans Krebs who first elucidated it. The cycle starts with the condensation of acetyl group with oxaloacetate (OAA) and water to yield citric acid, catalyzed by the enzyme citrate synthase. Citric acid is then isomerized to isocitrate. It is followed by two successive steps of oxidative decarboxylation, leading to the formation of alpha-ketoglutaric acid and then succinyl-CoA. In the remaining steps of citric acid cycle, succinyl-CoA is oxidized to OAA allowing the cycle to continue.
+
+During the conversion of succinyl-CoA to succinic acid a molecule of GTP is synthesized. This is a substrate level phosphorylation. In a coupled reaction GTP is converted to GDP with the simultaneous synthesis of ATP from ADP.
+
+### Section 2.4: Electron Transport System (ETS) and Oxidative Phosphorylation
+The metabolic pathway through which the electron passes from one carrier to another is called the electron transport system (ETS) and it is present in the inner mitochondrial membrane. Electrons from NADH produced in the mitochondrial matrix during citric acid cycle are oxidized by an NADH dehydrogenase (Complex I), and electrons are then transferred to ubiquinone located within the inner membrane.
+
+Complex II is succinate dehydrogenase, transferring electrons from FADH2 to ubiquinone. Ubiquinol is then oxidized with the transfer of electrons to cytochrome c via cytochrome bc1 complex (Complex III). Cytochrome c acts as a mobile carrier for transfer of electrons between complex III and complex IV. Complex IV refers to cytochrome c oxidase complex containing cytochromes a and a3, and two copper centers.
+
+When the electrons pass from one carrier to another via complex I to IV in the electron transport chain, they are coupled to ATP synthase (Complex V) for the production of ATP from ADP and inorganic phosphate. Oxygen acts as the final hydrogen and electron acceptor, driving the entire process by removing hydrogen and forming metabolic water.
+
