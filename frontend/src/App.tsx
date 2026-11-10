@@ -29,6 +29,7 @@ export const App: React.FC = () => {
   const [quiz, setQuiz] = useState<DiagnosticQuizResponse | null>(null);
   const [gapReport, setGapReport] = useState<GapReportResponse | null>(null);
   const [revisionPlan, setRevisionPlan] = useState<RevisionPlanResponse | null>(null);
+  const [backendOffline, setBackendOffline] = useState<boolean>(false);
 
   const [activeExplainTopic, setActiveExplainTopic] = useState({
     id: 'general',
@@ -48,11 +49,19 @@ export const App: React.FC = () => {
         api.getRevisionPlan(5, 2.0),
       ]);
 
+      const anySuccess =
+        tm.status === 'fulfilled' ||
+        qz.status === 'fulfilled' ||
+        gr.status === 'fulfilled' ||
+        rp.status === 'fulfilled';
+      setBackendOffline(!anySuccess);
+
       if (tm.status === 'fulfilled') setTopicMap(tm.value);
       if (qz.status === 'fulfilled') setQuiz(qz.value);
       if (gr.status === 'fulfilled') setGapReport(gr.value);
       if (rp.status === 'fulfilled') setRevisionPlan(rp.value);
     } catch (e) {
+      setBackendOffline(true);
       console.error('Failed to load backend state:', e);
     }
   };
@@ -105,6 +114,19 @@ export const App: React.FC = () => {
       />
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {backendOffline && (
+          <div className="mb-6 p-4 rounded-xl border border-amber-500/40 bg-amber-950/30 text-amber-200 text-xs flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+            <div>
+              <strong>Backend API Offline:</strong> Start the FastAPI server locally (<code className="bg-slate-900 px-1.5 py-0.5 rounded">uvicorn app.main:app --port 8000</code>) or configure <code className="bg-slate-900 px-1.5 py-0.5 rounded">VITE_API_BASE</code> to a hosted backend URL.
+            </div>
+            <button
+              onClick={loadAllInitialData}
+              className="px-3 py-1 bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 rounded-lg font-medium self-start sm:self-auto"
+            >
+              Retry Connection
+            </button>
+          </div>
+        )}
         {activeTab === 'upload' && (
           <UploadZone
             onContinue={() => {
